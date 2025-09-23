@@ -9,9 +9,18 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background: #f9f7f5;
+      background: linear-gradient(135deg, #1e90ff, #6a5acd, #ff69b4, #ffd700, #32cd32, #1e90ff);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
       color: #333;
     }
+
+    @keyframes gradientBG {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+
     .container {
       width: 80%;
       margin: 20px auto;
@@ -112,7 +121,7 @@
       <h2>Kontak Saya</h2>
       <div class="contact">
         <p>📱 085215988738</p>
-        <p>✉️ zhazil9@gmail.com</p>
+        <p>✉️ zhazajj@gmail.com</p>
       </div>
     </div>
 
